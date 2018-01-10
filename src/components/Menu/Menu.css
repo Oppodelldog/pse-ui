@@ -1,0 +1,22 @@
+.Menu {
+    background: #6189a5;
+    min-width: 250px;
+}
+
+.menu__header {
+    margin: 0;
+    padding: 1em;
+    border-bottom: 1px solid #283144;
+}
+
+.menu__header{
+    font-size: 1em;
+    color: #223143;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.menu__section {
+    padding: 1em;
+    border-bottom: 1px solid #283144;
+}

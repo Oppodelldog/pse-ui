@@ -1,0 +1,143 @@
+.App {
+  display: flex;
+  background: #223143;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+
+.App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.section__header {
+  margin: 0 0 .75em;
+  padding: 0;
+}
+
+
+.section__header {
+  font-size: 1em;
+  color: #223143;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+
+.form__label{
+  font-size: .8em;
+  line-height: 2em;
+  color: #223143;
+  font-weight: 700;
+  display: block;
+  margin-bottom: .5em;
+}
+
+.form__row{
+  margin-bottom: .5em;
+}
+
+.form__input{
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  border-radius: 0;
+  font-size: .75em;
+  padding: .6em;
+  background: #223143;
+  color: #fff;
+}
+
+.form__button {
+  display: inline-block;
+  width: auto;
+  float: right;
+  cursor: pointer;
+  text-transform: uppercase;
+  background: #e15130;
+}
+
+.form__row::after {
+  content: "";
+  clear: both;
+  display: block;
+  visibility: hidden;
+  height: 0;
+}
+
+.form__label--small {
+  width: 30%;
+  float: left;
+}
+
+.form__input--small {
+  width: 60%;
+  float: right;
+}
+
+
+.link {
+  color: #283144;
+  font-size: .8em;
+  text-decoration: none;
+  text-decoration-color: currentcolor;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+}
+
+
+
+
+
+
+
+
+fa-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 14px;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
