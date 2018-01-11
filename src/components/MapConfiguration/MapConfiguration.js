@@ -10,14 +10,14 @@ class MapConfiguration extends Component {
                     <label className="form__label form__label--small">
                         Columns</label>
                     <input placeholder="Columns (e.g. 10)" step="1" min="1" max="50"
-                           class="form__input form__input--small" type="number"/>
+                           className="form__input form__input--small" type="number"/>
                 </div>
                 <div className="form__row"><label className="form__label form__label--small">Rows</label> <input
                     placeholder="Rows (e.g. 10)" step="1" min="1" max="50" className="form__input form__input--small"
                     type="number"/>
                 </div>
-                <div data-v-e1ebd924="" class="form__row">
-                    <button data-v-e1ebd924="" class="form__input form__button">Build Map</button>
+                <div className="form__row">
+                    <button className="form__input form__button">Build Map</button>
                 </div>
             </div>
         )

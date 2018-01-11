@@ -16,7 +16,7 @@ class SearchSelection extends Component {
                 </select>
                 </div>
                 <div className="form__row">
-                    <button class="form__input form__button">Search</button>
+                    <button className="form__input form__button">Search</button>
                 </div>
             </div>
         )
