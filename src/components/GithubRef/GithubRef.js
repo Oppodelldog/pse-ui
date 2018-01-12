@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './GithubRef.css';
 
-class GithubRef extends Component {
+export default class GithubRef extends Component {
     render() {
         return (
             <div className="menu__section section">
@@ -13,5 +13,3 @@ class GithubRef extends Component {
         )
     }
 }
-
-export default GithubRef;

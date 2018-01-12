@@ -4,6 +4,9 @@
   "private": true,
   "dependencies": {
     "problem-graph-visualisation": "git+https://github.com/marcbreitung/problem-graph-visualisation.git",
+    "problem-map-generator": "git+https://github.com/marcbreitung/problem-map-generator.git",
+    "prop-types": "^15.6.0",
+    "pubsub-js": "^1.5.8",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.0.17"

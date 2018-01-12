@@ -2,17 +2,14 @@ import React, {Component} from 'react';
 import './Map.css';
 import ProblemGraphVisualisation from 'problem-graph-visualisation'
 
-class Map extends Component {
-    constructor(props) {
-        super(props);
-    }
+export default class Map extends Component {
 
     componentDidMount() {
-
         this.canvas = new ProblemGraphVisualisation.Canvas({
             element: document.getElementById('search-map'),
             height: 100,
-            width: 100
+            width: 100,
+            background:"#223143"
         });
         this.canvas.rendererFabric.registerRenderer('node', ProblemGraphVisualisation.NodesRenderer);
 
@@ -24,8 +21,8 @@ class Map extends Component {
                 { label: 'A', position: { x: 10, y: 50 }, childs: [{ position: { x: 90, y: 50 }, childs: [] }] },
                 { label: 'B', position: { x: 90, y: 50 }, childs: [{ position: { x: 10, y: 50 }, childs: [] }] }
             ],
-            nodeColor: '#e34f00',
-            lineColor: '#385171'
+            nodeColor: '#f8f70e',
+            lineColor: '#00e2c1'
         });
 
         this.canvas.addLevel(level);
@@ -39,4 +36,3 @@ class Map extends Component {
     }
 }
 
-export default Map;
