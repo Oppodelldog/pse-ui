@@ -7,7 +7,7 @@
     "problem-map-generator": "git+https://github.com/marcbreitung/problem-map-generator.git",
     "problem-search": "git+https://github.com/marcbreitung/problem-search.git",
     "prop-types": "^15.6.0",
-    "pubsub-js": "^1.5.8",
+    "pubsub-js": "^1.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.0.17"

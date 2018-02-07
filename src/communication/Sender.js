@@ -8,8 +8,11 @@ export default class Sender {
     static publishSearch(actionData) {
         PubSub.publish(Action.SEARCH, actionData);
     }
-
     static publishNewMapNodes(actionData) {
         PubSub.publish(Action.NEW_MAP_NODES, actionData);
+    }
+
+    static publishSolution(actionData) {
+        PubSub.publish(Action.SOLUTION, actionData);
     }
 }
