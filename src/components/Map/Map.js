@@ -123,7 +123,7 @@ export default class Map extends Component {
         });
         this.canvas.rendererFactory.registerRenderer('node', ProblemGraphVisualisation.NodesRenderer);
         this.canvas.rendererFactory.registerRenderer('graph-node', ProblemGraphVisualisation.NodesRenderer);
-        this.canvas.rendererFactory.registerRenderer('solution', ProblemGraphVisualisation.NodesRenderer);
+        this.canvas.rendererFactory.registerRenderer('solution', ProblemGraphVisualisation.SolutionRenderer);
         this.canvas.element = this.refs.canvas;
 
         this.canvas.update();
